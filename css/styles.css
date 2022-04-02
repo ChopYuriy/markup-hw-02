@@ -1,0 +1,233 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-text-color-theme-dark: #212121;
+    --secondary-text-color-theme-dark: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --background-color: #2F303A;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--primary-white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*================HEADER=================== */ 
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color-theme-dark);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color-theme-dark);
+}
+
+.mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-dark);
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+
+.tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-dark);
+
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+
+}
+
+/*================/HEADER=================== */
+
+/*================HERO=================== */
+
+.hero {
+    background-color: var(--background-color);
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: #757575;
+
+}
+/*================/HERO=================== */
+
+/*================COMPONENTS=================== */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color-theme-dark);
+}
+
+
+.suptitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color-theme-dark);
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;     
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+}
+/*================/COMPONENTS=================== */
+
+/*=================EMPLOYEES=================== */
+.employees {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color-theme-dark);
+}
+
+.employees-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;       
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+}
+/*=================/EMPLOYEES=================== */
+
+/*=================FOOTER=================== */
+.footer {
+    background-color: var(--background-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+
+.contact-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;       
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color)
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+/*================/FOOTER=================== */
+/*================PORTFOLIO=================== */
+.radio-btn:hover,
+.radio-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.radio-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--main-text-color-theme-dark);
+    background-color: #F5F4FA;;
+}
+
+.title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+}
+/*================/PORTFOLIO=================== */
+
